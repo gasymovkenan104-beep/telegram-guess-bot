@@ -9,9 +9,9 @@ from aiogram.types import (
     ReplyKeyboardMarkup,
 )
 
-TOKEN = "8951057518:AAF6DWKo4mHNDa1MJxFqQYA3PsDBbpI7Qd4"
+TOKEN = "8951057518:AAE_1pJyh6Dut0o_iESUawpdueyVQG4hm-g"
+bot = Bot(token=TOKEN) 
 
-bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 games = {}
